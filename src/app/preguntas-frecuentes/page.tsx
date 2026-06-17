@@ -34,6 +34,26 @@ const generalFaqs = [
     answer:
       "Recibirás indicaciones preoperatorias específicas según el procedimiento, que generalmente incluyen ayuno si corresponde, higiene local y suspensión de ciertos medicamentos.",
   },
+  {
+    question: "¿Desde qué edad debo consultar a un urólogo de forma preventiva?",
+    answer:
+      "Se recomienda un primer control urológico preventivo desde los 45-50 años, o antes si existen antecedentes familiares de cáncer de próstata o síntomas urinarios. Algunas condiciones (varicocele, dolor testicular, fimosis) pueden requerir consulta a cualquier edad.",
+  },
+  {
+    question: "¿Qué exámenes debo traer a mi primera consulta urológica?",
+    answer:
+      "Si los tienes, trae exámenes previos como PSA, ecografía renal/vesical/prostática, urocultivo o espermiograma. Si no los tienes, no es un impedimento: en la consulta se indicarán los exámenes necesarios según tu caso.",
+  },
+  {
+    question: "¿La consulta urológica es incómoda o dolorosa?",
+    answer:
+      "La mayoría de las evaluaciones urológicas son rápidas y bien toleradas. Cuando se requiere un examen físico más específico, siempre se explica previamente cada paso para que el paciente se sienta informado y cómodo.",
+  },
+  {
+    question: "¿Atienden urgencias urológicas?",
+    answer:
+      "Algunas condiciones como el dolor testicular agudo, la retención urinaria o el cólico renal intenso requieren evaluación inmediata en un servicio de urgencia. Para síntomas no urgentes, agenda tu hora de manera regular.",
+  },
 ];
 
 export default function FaqPage() {

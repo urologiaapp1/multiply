@@ -1,7 +1,12 @@
 export type Specialty = {
   slug: string;
   name: string;
-  category: "Cirugía genital" | "Andrología" | "Reconstrucción uretral" | "Infertilidad";
+  category:
+    | "Cirugía genital"
+    | "Andrología"
+    | "Reconstrucción uretral"
+    | "Infertilidad"
+    | "Urología general";
   shortDescription: string;
   seoTitle: string;
   seoDescription: string;
@@ -970,6 +975,338 @@ export const specialties: Specialty[] = [
     ],
     imagePrompt:
       "Ilustración médica vectorial esquemática sobre el trayecto uretral y la pelvis ósea en contexto de trauma, estilo institucional clínico, paleta azul, sin sangre ni contenido explícito.",
+  },
+  {
+    slug: "cancer-de-prostata",
+    name: "Cáncer de próstata",
+    category: "Urología general",
+    shortDescription:
+      "Detección precoz, diagnóstico y tratamiento del cáncer de próstata, el tumor urológico más frecuente en el hombre.",
+    seoTitle: "Cáncer de próstata en Temuco | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Detección precoz y tratamiento del cáncer de próstata en Temuco: PSA, biopsia, opciones terapéuticas y seguimiento con un urólogo especialista.",
+    keywords: [
+      "cáncer de próstata Temuco",
+      "PSA examen Temuco",
+      "urólogo próstata Chile",
+      "biopsia de próstata",
+    ],
+    resumen:
+      "El cáncer de próstata es el tumor urológico más frecuente en hombres mayores de 50 años. Detectado a tiempo mediante el examen de PSA y el tacto rectal, tiene altas probabilidades de curación. El manejo va desde la vigilancia activa en tumores de bajo riesgo hasta la cirugía o radioterapia en casos que requieren tratamiento.",
+    indicaciones: [
+      "Hombres mayores de 50 años como parte del control urológico preventivo.",
+      "Hombres mayores de 45 años con antecedentes familiares de cáncer de próstata.",
+      "Pacientes con elevación del antígeno prostático específico (PSA) o alteración al tacto rectal.",
+    ],
+    sintomas: [
+      "En etapas iniciales habitualmente no produce síntomas, por lo que el cribado es clave.",
+      "Síntomas urinarios obstructivos en etapas más avanzadas (chorro débil, dificultad para orinar).",
+      "Sangre en la orina o el semen en casos avanzados.",
+      "Dolor óseo en enfermedad metastásica (poco frecuente al diagnóstico).",
+    ],
+    diagnostico: [
+      "Antígeno prostático específico (PSA) en sangre.",
+      "Tacto rectal para evaluar consistencia y nódulos prostáticos.",
+      "Resonancia magnética multiparamétrica de próstata.",
+      "Biopsia prostática dirigida ante hallazgos sospechosos.",
+    ],
+    tratamiento: [
+      "Vigilancia activa en tumores de bajo riesgo, con controles periódicos.",
+      "Prostatectomía radical en casos seleccionados de riesgo intermedio o alto.",
+      "Radioterapia como alternativa curativa en pacientes seleccionados.",
+      "Terapia hormonal y tratamientos sistémicos en enfermedad avanzada, en conjunto con oncología.",
+    ],
+    beneficios: [
+      "Altas tasas de curación cuando se detecta en etapas iniciales.",
+      "Opciones terapéuticas adaptadas al riesgo individual y a la calidad de vida del paciente.",
+      "Seguimiento estructurado que permite decisiones informadas en cada etapa.",
+    ],
+    riesgos: [
+      "Disfunción eréctil e incontinencia urinaria como posibles efectos del tratamiento quirúrgico o radioterapia.",
+      "Sobretratamiento de tumores de muy bajo riesgo si no se opta por vigilancia activa cuando corresponde.",
+      "Efectos secundarios de la terapia hormonal en tratamientos prolongados.",
+    ],
+    recuperacion:
+      "Depende del tratamiento elegido. Tras una prostatectomía radical, la hospitalización es de uno a dos días y la recuperación funcional completa (continencia y función eréctil) puede tomar varios meses, con apoyo de rehabilitación de piso pélvico cuando se requiere.",
+    faqs: [
+      {
+        question: "¿A qué edad debo hacerme el primer examen de PSA?",
+        answer:
+          "En general se recomienda desde los 50 años, o desde los 45 años si existen antecedentes familiares directos de cáncer de próstata.",
+      },
+      {
+        question: "¿Un PSA elevado significa que tengo cáncer?",
+        answer:
+          "No necesariamente. El PSA puede elevarse por otras causas benignas como la hiperplasia prostática o infecciones. Un valor alterado requiere evaluación urológica para determinar la causa.",
+      },
+      {
+        question: "¿Todo cáncer de próstata necesita cirugía?",
+        answer:
+          "No. Muchos tumores de bajo riesgo se manejan con vigilancia activa, evitando tratamientos invasivos innecesarios mientras se realiza seguimiento estrecho.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial minimalista de la anatomía pélvica masculina mostrando la próstata, estilo institucional limpio, paleta azul y blanco, sin contenido explícito, fondo blanco.",
+  },
+  {
+    slug: "hiperplasia-prostatica-benigna",
+    name: "Hiperplasia prostática benigna (próstata aumentada)",
+    category: "Urología general",
+    shortDescription:
+      "Tratamiento del crecimiento benigno de la próstata y los síntomas urinarios asociados en hombres mayores.",
+    seoTitle: "Próstata aumentada (HPB) en Temuco | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Tratamiento de la hiperplasia prostática benigna en Temuco: síntomas urinarios, diagnóstico y opciones terapéuticas médicas y quirúrgicas.",
+    keywords: [
+      "próstata aumentada Temuco",
+      "hiperplasia prostática benigna",
+      "HPB tratamiento Chile",
+      "dificultad para orinar hombres",
+    ],
+    resumen:
+      "La hiperplasia prostática benigna (HPB) es el crecimiento no canceroso de la próstata, muy frecuente desde los 50 años, que puede comprimir la uretra y generar síntomas urinarios obstructivos. Existen tratamientos médicos y quirúrgicos efectivos según la severidad de los síntomas.",
+    indicaciones: [
+      "Hombres con síntomas urinarios obstructivos progresivos.",
+      "Pacientes con próstata aumentada confirmada por examen físico o ecografía.",
+      "Casos con retención urinaria o infecciones urinarias recurrentes secundarias a la obstrucción.",
+    ],
+    sintomas: [
+      "Chorro urinario débil o intermitente.",
+      "Necesidad de orinar frecuentemente, incluyendo de noche (nicturia).",
+      "Sensación de vaciamiento incompleto de la vejiga.",
+      "Urgencia para orinar y, en casos avanzados, retención urinaria aguda.",
+    ],
+    diagnostico: [
+      "Evaluación de síntomas mediante cuestionarios validados (IPSS).",
+      "Tacto rectal y ecografía prostática y renal.",
+      "Antígeno prostático específico (PSA) para descartar otras causas.",
+      "Flujometría urinaria y medición de residuo posmiccional cuando se requiere.",
+    ],
+    tratamiento: [
+      "Tratamiento médico con alfabloqueadores y/o inhibidores de la 5-alfa reductasa.",
+      "Procedimientos mínimamente invasivos (láser, resección endoscópica) en casos refractarios al tratamiento médico.",
+      "Cirugía endoscópica de próstata en próstatas de mayor volumen o síntomas severos.",
+    ],
+    beneficios: [
+      "Mejoría significativa de la calidad de vida y del patrón urinario.",
+      "Múltiples alternativas terapéuticas escalonadas según severidad.",
+      "Reducción del riesgo de complicaciones como retención urinaria o daño renal en casos avanzados.",
+    ],
+    riesgos: [
+      "Eyaculación retrógrada con algunos tratamientos médicos y quirúrgicos.",
+      "Sangrado o infección urinaria postoperatoria en procedimientos quirúrgicos.",
+      "Necesidad de reintervención en un porcentaje menor de casos a largo plazo.",
+    ],
+    recuperacion:
+      "El tratamiento médico no requiere recuperación específica. Tras procedimientos quirúrgicos endoscópicos, la hospitalización suele ser de uno a dos días, con sonda urinaria transitoria y recuperación funcional completa en pocas semanas.",
+    faqs: [
+      {
+        question: "¿La próstata aumentada es lo mismo que cáncer de próstata?",
+        answer:
+          "No. La hiperplasia prostática benigna es un crecimiento no canceroso, aunque ambas condiciones pueden coexistir y por eso siempre se descarta cáncer al evaluar síntomas urinarios.",
+      },
+      {
+        question: "¿Siempre hay que operar la próstata aumentada?",
+        answer:
+          "No. Muchos pacientes mejoran con tratamiento médico. La cirugía se reserva para síntomas severos, falla del tratamiento médico o complicaciones como retención urinaria.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial de la anatomía de la vejiga, próstata y uretra masculina mostrando obstrucción urinaria, estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
+  {
+    slug: "incontinencia-urinaria",
+    name: "Incontinencia urinaria masculina",
+    category: "Urología general",
+    shortDescription:
+      "Evaluación y tratamiento de la pérdida involuntaria de orina en hombres.",
+    seoTitle: "Incontinencia urinaria en hombres | Dr. Cristóbal Bettancourt, Temuco",
+    seoDescription:
+      "Tratamiento de la incontinencia urinaria masculina en Temuco: causas, diagnóstico y opciones terapéuticas, incluida la incontinencia post cirugía prostática.",
+    keywords: [
+      "incontinencia urinaria hombres Temuco",
+      "incontinencia post prostatectomía",
+      "urólogo incontinencia Chile",
+    ],
+    resumen:
+      "La incontinencia urinaria masculina es la pérdida involuntaria de orina, frecuentemente asociada a cirugía prostática previa, envejecimiento del piso pélvico o problemas neurológicos. Existe un amplio rango de tratamientos, desde rehabilitación de piso pélvico hasta cirugía correctiva.",
+    indicaciones: [
+      "Pacientes con pérdida de orina tras prostatectomía radical u otra cirugía pélvica.",
+      "Hombres con urgencia urinaria asociada a pérdida involuntaria.",
+      "Pacientes con incontinencia de esfuerzo al toser, reír o hacer ejercicio.",
+    ],
+    sintomas: [
+      "Escape involuntario de orina al esfuerzo, toser o estornudar.",
+      "Urgencia repentina para orinar con escape antes de llegar al baño.",
+      "Uso constante de protectores o pañales por pérdida de orina.",
+    ],
+    diagnostico: [
+      "Historia clínica detallada y cuestionarios de severidad.",
+      "Estudio urodinámico para caracterizar el tipo de incontinencia.",
+      "Evaluación endoscópica (uretrocistoscopia) cuando se requiere.",
+    ],
+    tratamiento: [
+      "Rehabilitación de piso pélvico y ejercicios de Kegel dirigidos.",
+      "Tratamiento farmacológico en incontinencia de urgencia.",
+      "Cabestrillo uretral masculino en incontinencia leve a moderada.",
+      "Esfínter urinario artificial en casos moderados a severos, especialmente post prostatectomía.",
+    ],
+    beneficios: [
+      "Mejoría sustancial en la calidad de vida y autonomía del paciente.",
+      "Opciones terapéuticas escalonadas, desde conservadoras hasta quirúrgicas definitivas.",
+      "Abordaje individualizado según el tipo y severidad de la incontinencia.",
+    ],
+    riesgos: [
+      "Resultados variables con el tratamiento conservador, requiriendo constancia.",
+      "Riesgo de infección o erosión en dispositivos implantables, aunque es poco frecuente.",
+      "Posible necesidad de ajuste o recambio de dispositivos a largo plazo.",
+    ],
+    recuperacion:
+      "La rehabilitación de piso pélvico requiere varias semanas de práctica constante para notar mejoría. En procedimientos quirúrgicos como el cabestrillo o el esfínter artificial, la recuperación funcional completa toma entre 4 y 6 semanas.",
+    faqs: [
+      {
+        question: "¿La incontinencia tras una cirugía de próstata es permanente?",
+        answer:
+          "En la mayoría de los casos mejora progresivamente durante el primer año con rehabilitación de piso pélvico. Si persiste, existen tratamientos quirúrgicos efectivos como el cabestrillo uretral o el esfínter urinario artificial.",
+      },
+      {
+        question: "¿Los ejercicios de Kegel realmente funcionan en hombres?",
+        answer:
+          "Sí, especialmente cuando se realizan de forma dirigida y constante tras cirugía pélvica, siendo la primera línea de tratamiento antes de considerar opciones quirúrgicas.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial del piso pélvico y vejiga masculina, estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
+  {
+    slug: "litiasis-renal",
+    name: "Litiasis renal (cálculos renales)",
+    category: "Urología general",
+    shortDescription:
+      "Diagnóstico y tratamiento de los cálculos renales y ureterales, desde el manejo del dolor agudo hasta la cirugía.",
+    seoTitle: "Cálculos renales en Temuco | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Tratamiento de cálculos renales y ureterales en Temuco: manejo del cólico renal, litotricia, cirugía endoscópica y prevención de recurrencia.",
+    keywords: [
+      "cálculos renales Temuco",
+      "cólico renal tratamiento",
+      "litotricia Chile",
+      "piedras en el riñón",
+    ],
+    resumen:
+      "La litiasis renal corresponde a la formación de cálculos en el riñón o el uréter, causa frecuente de dolor agudo intenso (cólico renal). El tratamiento varía desde el manejo expectante y analgesia hasta procedimientos como la litotricia extracorpórea o la cirugía endoscópica, según el tamaño y la ubicación del cálculo.",
+    indicaciones: [
+      "Pacientes con cólico renal agudo confirmado por imágenes.",
+      "Cálculos renales de gran tamaño o que no progresan espontáneamente.",
+      "Pacientes con litiasis recurrente que requieren estudio metabólico.",
+    ],
+    sintomas: [
+      "Dolor lumbar intenso de tipo cólico, irradiado a la zona genital.",
+      "Sangre en la orina (hematuria).",
+      "Náuseas y vómitos asociados al dolor agudo.",
+      "Infección urinaria asociada en algunos casos.",
+    ],
+    diagnostico: [
+      "Tomografía computada de abdomen y pelvis sin contraste (estándar de referencia).",
+      "Ecografía renal y vesical como estudio inicial o de seguimiento.",
+      "Análisis de orina y eventual estudio metabólico en litiasis recurrente.",
+    ],
+    tratamiento: [
+      "Manejo médico expectante con analgesia y facilitadores de expulsión en cálculos pequeños.",
+      "Litotricia extracorpórea por ondas de choque (LEOC) para cálculos seleccionados.",
+      "Ureteroscopia con láser para cálculos ureterales.",
+      "Nefrolitotomía percutánea en cálculos renales de gran volumen.",
+    ],
+    beneficios: [
+      "Resolución efectiva del dolor agudo y del cálculo causante.",
+      "Técnicas mínimamente invasivas con baja tasa de complicaciones.",
+      "Estudio metabólico que permite prevenir nuevos episodios.",
+    ],
+    riesgos: [
+      "Sangrado o infección urinaria postoperatoria, generalmente manejables.",
+      "Necesidad de procedimientos adicionales si el cálculo no se elimina por completo.",
+      "Recurrencia de litiasis si no se realizan medidas preventivas.",
+    ],
+    recuperacion:
+      "El cólico renal agudo suele resolverse en días con manejo médico. Tras procedimientos endoscópicos, la recuperación habitual es de pocos días, pudiendo requerir un catéter ureteral temporal según el caso.",
+    faqs: [
+      {
+        question: "¿Todos los cálculos renales requieren cirugía?",
+        answer:
+          "No. Los cálculos pequeños frecuentemente se expulsan de forma espontánea con manejo médico. La cirugía se reserva para cálculos grandes, sintomáticos persistentes o que no progresan.",
+      },
+      {
+        question: "¿Cómo puedo prevenir que me vuelvan a aparecer cálculos?",
+        answer:
+          "Aumentando la ingesta de agua, ajustando la dieta según el tipo de cálculo y, en casos recurrentes, realizando un estudio metabólico para identificar y corregir la causa específica.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial del sistema urinario (riñones, uréteres, vejiga) mostrando un cálculo renal, estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
+  {
+    slug: "infecciones-urinarias-recurrentes",
+    name: "Infecciones urinarias recurrentes",
+    category: "Urología general",
+    shortDescription:
+      "Estudio y manejo de las infecciones urinarias a repetición en hombres.",
+    seoTitle: "Infecciones urinarias recurrentes en hombres | Dr. Cristóbal Bettancourt, Temuco",
+    seoDescription:
+      "Estudio y tratamiento de infecciones urinarias recurrentes en hombres en Temuco: causas, exámenes y prevención con un urólogo especialista.",
+    keywords: [
+      "infección urinaria hombres Temuco",
+      "infecciones urinarias recurrentes",
+      "urólogo infección urinaria Chile",
+    ],
+    resumen:
+      "Aunque menos frecuentes que en mujeres, las infecciones urinarias en hombres suelen indicar una causa subyacente que debe estudiarse, como obstrucción prostática, cálculos o anomalías anatómicas. El abordaje busca tratar la infección activa e identificar y corregir la causa de la recurrencia.",
+    indicaciones: [
+      "Hombres con dos o más infecciones urinarias confirmadas en seis meses.",
+      "Pacientes con infección urinaria asociada a fiebre, dolor lumbar o síntomas obstructivos.",
+      "Pacientes con sospecha de prostatitis crónica.",
+    ],
+    sintomas: [
+      "Ardor o dolor al orinar (disuria).",
+      "Aumento de la frecuencia urinaria y urgencia.",
+      "Dolor pélvico o perineal, especialmente en prostatitis.",
+      "Fiebre en casos de infección urinaria complicada.",
+    ],
+    diagnostico: [
+      "Urocultivo con antibiograma para confirmar el germen y la sensibilidad antibiótica.",
+      "Ecografía renal y vesical, y evaluación prostática.",
+      "Estudio endoscópico (uretrocistoscopia) en casos seleccionados para descartar causas anatómicas.",
+    ],
+    tratamiento: [
+      "Tratamiento antibiótico dirigido según urocultivo.",
+      "Corrección de la causa subyacente (obstrucción prostática, cálculos, estenosis).",
+      "Manejo específico de la prostatitis crónica cuando corresponde.",
+      "Medidas preventivas personalizadas en casos recurrentes sin causa anatómica corregible.",
+    ],
+    beneficios: [
+      "Resolución de la infección activa y reducción de episodios futuros.",
+      "Identificación de causas tratables que evitan la recurrencia.",
+      "Enfoque dirigido que evita el uso innecesario y prolongado de antibióticos.",
+    ],
+    riesgos: [
+      "Progresión a infección urinaria complicada o prostatitis aguda si no se trata oportunamente.",
+      "Resistencia antibiótica en casos de tratamientos repetidos sin estudio adecuado.",
+    ],
+    recuperacion:
+      "La infección aguda suele resolverse en 7 a 14 días de tratamiento antibiótico dirigido. El abordaje de la causa subyacente puede requerir un seguimiento de varias semanas a meses según el hallazgo.",
+    faqs: [
+      {
+        question: "¿Es normal que un hombre tenga infecciones urinarias a repetición?",
+        answer:
+          "No es lo habitual. A diferencia de las mujeres, en los hombres las infecciones urinarias recurrentes generalmente indican una causa subyacente que debe estudiarse y corregirse.",
+      },
+      {
+        question: "¿La prostatitis crónica es lo mismo que una infección urinaria?",
+        answer:
+          "Pueden relacionarse, pero no son lo mismo. La prostatitis crónica puede cursar con o sin infección demostrable y requiere un enfoque diagnóstico y terapéutico específico.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial del tracto urinario masculino (riñones, vejiga, próstata, uretra), estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
   },
 ];
 
