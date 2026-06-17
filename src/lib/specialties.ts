@@ -1308,6 +1308,324 @@ export const specialties: Specialty[] = [
     imagePrompt:
       "Ilustración médica vectorial del tracto urinario masculino (riñones, vejiga, próstata, uretra), estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
   },
+  {
+    slug: "rezum-y-holep",
+    name: "Cirugía mínimamente invasiva de próstata: Rezum y HoLEP",
+    category: "Urología general",
+    shortDescription:
+      "Tratamientos modernos para la próstata aumentada: terapia con vapor de agua (Rezum) y enucleación con láser de holmio (HoLEP).",
+    seoTitle: "Rezum y HoLEP en Temuco | Cirugía de próstata | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Tratamiento de la próstata aumentada con Rezum y HoLEP en Temuco: en qué consisten, manejo postoperatorio y respuestas a las dudas más frecuentes de los pacientes.",
+    keywords: [
+      "Rezum Temuco",
+      "HoLEP Chile",
+      "cirugía de próstata láser",
+      "tratamiento próstata aumentada Temuco",
+    ],
+    resumen:
+      "Rezum y HoLEP son dos alternativas modernas para tratar la hiperplasia prostática benigna (próstata aumentada) cuando el tratamiento médico no es suficiente. Rezum utiliza vapor de agua para reducir el tejido prostático obstructivo con anestesia local, mientras que HoLEP utiliza un láser de holmio para enuclear (remover) el tejido prostático de forma endoscópica, siendo especialmente efectivo en próstatas de gran tamaño.",
+    indicaciones: [
+      "Síntomas urinarios obstructivos moderados a severos que no responden al tratamiento médico.",
+      "Pacientes que buscan evitar o reducir el uso prolongado de medicamentos para la próstata.",
+      "HoLEP especialmente indicado en próstatas de gran volumen, donde otras técnicas tienen limitaciones.",
+      "Rezum como alternativa para pacientes que buscan preservar la función eyaculatoria.",
+    ],
+    sintomas: [
+      "Chorro urinario débil o intermitente.",
+      "Necesidad frecuente de orinar, incluyendo de noche.",
+      "Sensación de vaciamiento incompleto de la vejiga.",
+      "Episodios de retención urinaria en casos más avanzados.",
+    ],
+    diagnostico: [
+      "Cuestionario de síntomas validado (IPSS) y examen físico con tacto rectal.",
+      "Ecografía prostática para medir el volumen y planificar la técnica más adecuada.",
+      "PSA en sangre y flujometría urinaria.",
+      "Cistoscopia en casos seleccionados antes de definir la técnica quirúrgica.",
+    ],
+    tratamiento: [
+      "Rezum: aplicación de vapor de agua estéril directamente en el tejido prostático obstructivo mediante un dispositivo endoscópico, en sesión ambulatoria con anestesia local o sedación leve.",
+      "HoLEP: enucleación endoscópica del tejido prostático mediante láser de holmio, con extracción del tejido y hospitalización breve.",
+      "Selección de la técnica según volumen prostático, expectativas del paciente (preservación eyaculatoria) y evaluación urológica individual.",
+    ],
+    beneficios: [
+      "Mejoría significativa y duradera del flujo urinario y los síntomas obstructivos.",
+      "Rezum: procedimiento ambulatorio, de recuperación rápida y con mayor preservación de la función eyaculatoria.",
+      "HoLEP: altamente efectivo incluso en próstatas muy grandes, con baja tasa de necesidad de reintervención a largo plazo.",
+      "Reducción o eliminación de la necesidad de medicamentos para la próstata.",
+    ],
+    riesgos: [
+      "Molestias urinarias transitorias (ardor, urgencia) en las primeras semanas, más frecuentes con Rezum mientras el tejido tratado se reabsorbe.",
+      "Sangrado o infección urinaria postoperatoria, generalmente manejables.",
+      "Eyaculación retrógrada, más frecuente con HoLEP que con Rezum.",
+      "Necesidad de sonda urinaria temporal tras el procedimiento.",
+    ],
+    recuperacion:
+      "Con Rezum, el efecto completo sobre los síntomas se aprecia progresivamente durante 4 a 6 semanas, mientras el tejido tratado se reabsorbe; el paciente suele volver a sus actividades habituales en pocos días. Con HoLEP, la hospitalización es de 1 a 2 días, con sonda urinaria por 24 a 48 horas, y la recuperación funcional completa ocurre en 2 a 4 semanas.",
+    faqs: [
+      {
+        question: "¿Rezum o HoLEP, cuál es mejor para mí?",
+        answer:
+          "Depende principalmente del tamaño de la próstata y de tus prioridades: Rezum es ambulatorio y preserva mejor la eyaculación, mientras que HoLEP es más efectivo en próstatas grandes con resultados muy duraderos. La elección se decide en conjunto durante la evaluación urológica.",
+      },
+      {
+        question: "¿Voy a sentir dolor durante o después del procedimiento?",
+        answer:
+          "Ambos procedimientos se realizan con anestesia adecuada (local, sedación o anestesia general según el caso) y el dolor postoperatorio es generalmente leve y bien controlado con analgesia habitual.",
+      },
+      {
+        question: "¿Cuánto tiempo debo usar sonda urinaria después de la cirugía?",
+        answer:
+          "Con Rezum, en muchos casos no se requiere sonda o se usa por pocos días. Con HoLEP, habitualmente se mantiene entre 24 y 48 horas tras el procedimiento, retirándose antes del alta o en el control inmediato.",
+      },
+      {
+        question: "¿Cuándo puedo volver a tener actividad sexual después de la cirugía?",
+        answer:
+          "En general se recomienda esperar entre 2 y 4 semanas, según el procedimiento y la evolución individual, lo cual se confirma en los controles postoperatorios.",
+      },
+      {
+        question: "¿Estos tratamientos eliminan el riesgo de cáncer de próstata?",
+        answer:
+          "No. Ambos tratan la hiperplasia benigna, no el cáncer. El control con PSA y tacto rectal debe continuarse según indicación médica independientemente del tratamiento recibido.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial de un procedimiento endoscópico de próstata mostrando vapor de agua y láser de forma esquemática y no explícita, estilo institucional limpio, paleta azul y blanco.",
+  },
+  {
+    slug: "cistoscopia",
+    name: "Cistoscopía",
+    category: "Urología general",
+    shortDescription:
+      "Examen endoscópico que permite visualizar directamente la uretra y la vejiga, clave en el diagnóstico de múltiples condiciones urológicas.",
+    seoTitle: "Cistoscopía en Temuco | Agenda tu examen | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Cistoscopía en Temuco: en qué consiste, cómo prepararte, qué detecta (incluyendo el cáncer de vejiga) y cómo agendar tu examen con un urólogo especialista.",
+    keywords: [
+      "cistoscopía Temuco",
+      "examen de vejiga Temuco",
+      "cáncer de vejiga síntomas",
+      "agendar cistoscopía Chile",
+    ],
+    resumen:
+      "La cistoscopía es un examen endoscópico que permite observar directamente el interior de la uretra y la vejiga mediante una cámara de pequeño calibre. Es una herramienta diagnóstica fundamental para evaluar sangrado urinario, infecciones recurrentes, estenosis uretrales y, de forma especialmente importante, para la detección y seguimiento del cáncer de vejiga.",
+    indicaciones: [
+      "Sangre en la orina (hematuria), visible o detectada en examen de laboratorio.",
+      "Infecciones urinarias recurrentes sin causa clara identificada.",
+      "Síntomas urinarios irritativos persistentes sin explicación.",
+      "Seguimiento de pacientes con antecedente de cáncer de vejiga o lesiones vesicales previas.",
+      "Evaluación de estenosis uretral u otras alteraciones anatómicas.",
+    ],
+    sintomas: [
+      "El examen en sí no trata un síntoma específico, sino que evalúa la causa de síntomas como sangrado urinario o irritación vesical persistente.",
+    ],
+    diagnostico: [
+      "La cistoscopía es en sí misma el examen diagnóstico definitivo para visualizar la vejiga y la uretra.",
+      "Habitualmente se complementa con ecografía vesical y renal, y citología urinaria cuando se sospecha cáncer de vejiga.",
+    ],
+    tratamiento: [
+      "Cistoscopía flexible ambulatoria: examen rápido, de pocos minutos, realizado con anestesia local tópica (gel anestésico), sin necesidad de hospitalización.",
+      "En algunos casos puede combinarse con procedimientos terapéuticos menores en el mismo acto, como la toma de biopsias dirigidas.",
+    ],
+    beneficios: [
+      "Visualización directa y precisa de la uretra y la vejiga, superior a otros métodos de imagen para ciertas lesiones.",
+      "Procedimiento ambulatorio, rápido y generalmente bien tolerado.",
+      "Permite la detección precoz del cáncer de vejiga, mejorando significativamente el pronóstico.",
+    ],
+    riesgos: [
+      "Molestia o ardor leve y transitorio al orinar tras el examen.",
+      "Pequeña posibilidad de sangrado leve o infección urinaria posterior.",
+      "Es un examen generalmente bien tolerado, con baja tasa de complicaciones.",
+    ],
+    recuperacion:
+      "Tras una cistoscopía flexible diagnóstica, el paciente puede retomar sus actividades habituales el mismo día. Las molestias leves al orinar, si aparecen, suelen resolverse en 24 a 48 horas.",
+    faqs: [
+      {
+        question: "¿Cómo agendo mi cistoscopía?",
+        answer:
+          "Puedes agendar tu hora de evaluación a través del formulario de agenda o por teléfono; en la consulta se evaluará si el examen está indicado y se coordinará la fecha del procedimiento.",
+      },
+      {
+        question: "¿La cistoscopía es dolorosa?",
+        answer:
+          "La cistoscopía flexible, que es la más utilizada actualmente, se realiza con anestesia local tópica y es generalmente bien tolerada, descrita por la mayoría de los pacientes como una molestia leve y breve más que como dolor significativo.",
+      },
+      {
+        question: "¿La cistoscopía detecta el cáncer de vejiga?",
+        answer:
+          "Sí. Es el examen de referencia para el diagnóstico del cáncer de vejiga, permitiendo visualizar directamente lesiones sospechosas en la pared vesical y tomar biopsias cuando corresponde.",
+      },
+      {
+        question: "¿Qué síntomas de cáncer de vejiga debo vigilar?",
+        answer:
+          "El signo más frecuente es la sangre en la orina, indolora y a veces intermitente, lo que lleva a que se subestime erróneamente. También pueden presentarse síntomas irritativos urinarios persistentes. Cualquiera de estos síntomas debe evaluarse con cistoscopía.",
+      },
+      {
+        question: "¿Necesito alguna preparación especial antes del examen?",
+        answer:
+          "Generalmente no se requiere ayuno ni preparación especial para la cistoscopía flexible ambulatoria; se entregarán instrucciones específicas si tu caso requiere alguna consideración particular.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial esquemática de un cistoscopio visualizando la vejiga masculina, estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
+  {
+    slug: "vejiga-hiperactiva",
+    name: "Vejiga hiperactiva",
+    category: "Urología general",
+    shortDescription:
+      "Manejo integral de la urgencia y frecuencia urinaria, con opciones desde la kinesiterapia hasta la estimulación tibial posterior.",
+    seoTitle: "Vejiga hiperactiva en Temuco | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Tratamiento de la vejiga hiperactiva en Temuco: incidencia, manejo farmacológico, kinesiterapia de piso pélvico y estimulación tibial posterior.",
+    keywords: [
+      "vejiga hiperactiva Temuco",
+      "urgencia urinaria tratamiento",
+      "estimulación tibial posterior Chile",
+      "incontinencia de urgencia",
+    ],
+    resumen:
+      "La vejiga hiperactiva es un síndrome caracterizado por urgencia urinaria, con o sin incontinencia asociada, frecuencia urinaria aumentada y nicturia. Afecta a una proporción significativa de la población adulta, aumentando con la edad, y cuenta con múltiples opciones de tratamiento escalonado, desde medidas conductuales hasta terapias avanzadas como la estimulación tibial posterior.",
+    indicaciones: [
+      "Urgencia urinaria que dificulta llegar al baño a tiempo.",
+      "Frecuencia urinaria diurna aumentada sin causa infecciosa identificada.",
+      "Nicturia (despertar más de una vez en la noche para orinar) que afecta el descanso.",
+      "Episodios de incontinencia de urgencia asociados.",
+    ],
+    sintomas: [
+      "Necesidad imperiosa y repentina de orinar.",
+      "Aumento de la frecuencia urinaria diurna y nocturna.",
+      "Escape de orina asociado a la urgencia, en algunos pacientes.",
+      "Impacto en la calidad de vida, sueño y actividades sociales.",
+    ],
+    diagnostico: [
+      "Historia clínica y diario miccional (registro de horarios y volúmenes de micción).",
+      "Examen físico y, en hombres, evaluación prostática para descartar causas obstructivas asociadas.",
+      "Urocultivo para descartar infección urinaria como causa de los síntomas.",
+      "Estudio urodinámico en casos seleccionados o refractarios al tratamiento inicial.",
+    ],
+    tratamiento: [
+      "Medidas conductuales: ajuste de ingesta de líquidos, reducción de cafeína/alcohol y entrenamiento vesical.",
+      "Kinesiterapia de piso pélvico: fortalecimiento y reeducación de la musculatura pélvica, primera línea junto con las medidas conductuales.",
+      "Tratamiento farmacológico: antimuscarínicos o beta-3 agonistas, que relajan la vejiga y reducen la urgencia.",
+      "Estimulación tibial posterior: terapia de neuromodulación no invasiva, mediante estimulación eléctrica del nervio tibial posterior en el tobillo, indicada cuando el tratamiento conductual y farmacológico no es suficiente.",
+      "Toxina botulínica intravesical u otras terapias de tercera línea en casos refractarios seleccionados.",
+    ],
+    beneficios: [
+      "Mejoría significativa de la urgencia, frecuencia y calidad del sueño.",
+      "Múltiples opciones terapéuticas escalonadas, adaptadas a la severidad y preferencias del paciente.",
+      "La estimulación tibial posterior ofrece una alternativa eficaz y no invasiva para quienes no toleran o no responden a fármacos.",
+    ],
+    riesgos: [
+      "Efectos secundarios de los fármacos antimuscarínicos, como sequedad bucal o constipación.",
+      "Resultados variables y graduales con la kinesiterapia, que requiere constancia.",
+      "La estimulación tibial posterior requiere sesiones repetidas para lograr y mantener el efecto.",
+    ],
+    recuperacion:
+      "Las medidas conductuales y la kinesiterapia muestran mejoría progresiva en 6 a 12 semanas de práctica constante. La estimulación tibial posterior se realiza en sesiones semanales (habitualmente 12 sesiones iniciales), con sesiones de mantenimiento posteriores según respuesta.",
+    faqs: [
+      {
+        question: "¿Qué tan frecuente es la vejiga hiperactiva?",
+        answer:
+          "Es una condición muy común: se estima que afecta a una proporción relevante de la población adulta, con una prevalencia que aumenta progresivamente con la edad, tanto en hombres como en mujeres.",
+      },
+      {
+        question: "¿La vejiga hiperactiva se cura completamente?",
+        answer:
+          "Es una condición que se controla muy eficazmente con tratamiento, aunque no siempre se 'cura' en el sentido estricto. La mayoría de los pacientes logra una mejoría sustancial de los síntomas y la calidad de vida.",
+      },
+      {
+        question: "¿En qué consiste la estimulación tibial posterior?",
+        answer:
+          "Es una terapia no invasiva en la que se aplica una corriente eléctrica de baja intensidad a través de una pequeña aguja o electrodo cerca del tobillo, estimulando el nervio tibial posterior, que tiene conexiones neurológicas con el control de la vejiga. Se realiza en sesiones ambulatorias de aproximadamente 30 minutos.",
+      },
+      {
+        question: "¿Debo tomar los medicamentos para siempre?",
+        answer:
+          "No necesariamente. Muchos pacientes pueden reducir o suspender la medicación una vez logrado un buen control de síntomas combinado con medidas conductuales y kinesiterapia, siempre bajo supervisión médica.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial de la vejiga y el sistema nervioso asociado al control urinario, estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
+  {
+    slug: "deficit-de-testosterona-andropausia",
+    name: "Déficit de testosterona, andropausia e hipogonadismo de inicio tardío",
+    category: "Andrología",
+    shortDescription:
+      "Diagnóstico y manejo del descenso de testosterona en el hombre adulto, incluyendo alternativas que no requieren suplementación directa de testosterona.",
+    seoTitle: "Déficit de testosterona y andropausia en Temuco | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "Diagnóstico y tratamiento del hipogonadismo de inicio tardío en Temuco: síntomas, exámenes y alternativas terapéuticas, incluyendo citrato de clomifeno y anastrozol.",
+    keywords: [
+      "déficit de testosterona Temuco",
+      "andropausia tratamiento",
+      "hipogonadismo de inicio tardío",
+      "citrato de clomifeno hombres",
+    ],
+    resumen:
+      "El hipogonadismo de inicio tardío, conocido popularmente como andropausia, es el descenso progresivo de los niveles de testosterona asociado a la edad, que puede generar síntomas físicos, sexuales y anímicos. El tratamiento no siempre implica reemplazo directo de testosterona: existen alternativas farmacológicas, como el citrato de clomifeno y el anastrozol, que estimulan la producción natural de testosterona del propio organismo, siendo especialmente útiles en hombres que desean preservar la fertilidad.",
+    indicaciones: [
+      "Hombres con síntomas compatibles con déficit de testosterona y niveles confirmados bajos en exámenes de laboratorio.",
+      "Pacientes en edad reproductiva que desean tratar el hipogonadismo sin comprometer la fertilidad.",
+      "Hombres con fatiga, disminución de la libido o cambios anímicos persistentes, especialmente después de los 40-50 años.",
+    ],
+    sintomas: [
+      "Disminución del deseo sexual y de la calidad de las erecciones.",
+      "Fatiga persistente y disminución de la energía habitual.",
+      "Disminución de la masa muscular y aumento de la grasa corporal.",
+      "Cambios en el estado de ánimo, irritabilidad o dificultad para concentrarse.",
+      "Disminución de la densidad ósea en casos de déficit prolongado no tratado.",
+    ],
+    diagnostico: [
+      "Medición de testosterona total en sangre, idealmente en la mañana y confirmada en una segunda muestra.",
+      "Evaluación complementaria de LH, FSH y prolactina para definir el origen del hipogonadismo.",
+      "Evaluación clínica de síntomas mediante cuestionarios validados.",
+      "Descarte de otras causas que puedan simular los síntomas (hipotiroidismo, depresión, apnea del sueño).",
+    ],
+    tratamiento: [
+      "Terapia de reemplazo de testosterona, en sus distintas formas de administración, en hombres sin deseo de fertilidad a corto plazo.",
+      "Citrato de clomifeno: estimula la producción de hormonas (LH y FSH) que a su vez incrementan la producción natural de testosterona por los testículos, preservando la fertilidad, a diferencia del reemplazo directo de testosterona.",
+      "Anastrozol: en casos seleccionados con una proporción elevada de conversión de testosterona a estrógenos, ayuda a optimizar el balance hormonal y, indirectamente, los niveles de testosterona disponible.",
+      "Manejo de factores asociados: control de peso, actividad física y manejo de condiciones como la apnea del sueño, que pueden mejorar los niveles hormonales de forma natural.",
+    ],
+    beneficios: [
+      "Mejoría de la energía, el ánimo, la libido y la función sexual en pacientes adecuadamente seleccionados.",
+      "Las alternativas como el citrato de clomifeno permiten tratar el hipogonadismo preservando la fertilidad, algo que el reemplazo directo de testosterona no logra.",
+      "Abordaje personalizado según la edad, los deseos de fertilidad y el perfil hormonal específico de cada paciente.",
+    ],
+    riesgos: [
+      "El reemplazo directo de testosterona puede suprimir la producción natural y afectar la fertilidad mientras se utiliza.",
+      "Posibles efectos secundarios según la alternativa elegida, que se discuten de forma individualizada antes de iniciar tratamiento.",
+      "Necesidad de seguimiento periódico con exámenes de laboratorio para ajustar la terapia y vigilar la respuesta.",
+    ],
+    recuperacion:
+      "La mejoría sintomática con cualquiera de las alternativas terapéuticas suele apreciarse de forma progresiva entre las 4 y 12 semanas de tratamiento, con controles de laboratorio periódicos para ajustar la dosis según la respuesta individual.",
+    faqs: [
+      {
+        question: "¿Existen alternativas a la testosterona para tratar el hipogonadismo?",
+        answer:
+          "Sí. El citrato de clomifeno y, en casos seleccionados, el anastrozol, son alternativas que estimulan la producción natural de testosterona por el propio organismo, en lugar de reemplazarla externamente, siendo especialmente útiles en hombres que desean mantener su fertilidad.",
+      },
+      {
+        question: "¿Por qué evitar la testosterona externa si quiero tener hijos?",
+        answer:
+          "La testosterona administrada externamente suprime la señal hormonal que estimula la producción de espermatozoides en los testículos, pudiendo reducir significativamente la fertilidad mientras se utiliza. Por eso, en hombres con deseo de fertilidad, se priorizan alternativas como el citrato de clomifeno.",
+      },
+      {
+        question: "¿A qué edad se presenta la andropausia?",
+        answer:
+          "No tiene una edad fija como la menopausia femenina; el descenso de testosterona es gradual y puede comenzar a manifestarse con síntomas desde los 40-50 años, aunque varía considerablemente entre cada persona.",
+      },
+      {
+        question: "¿Un examen de testosterona bajo siempre requiere tratamiento?",
+        answer:
+          "No necesariamente. El diagnóstico de hipogonadismo requiere tanto un nivel de testosterona bajo confirmado como la presencia de síntomas compatibles. Valores levemente bajos sin síntomas relevantes pueden solo requerir seguimiento.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial conceptual del eje hormonal masculino (cerebro, hipófisis, testículos), estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
+  },
 ];
 
 export function getSpecialtyBySlug(slug: string) {
