@@ -10,7 +10,7 @@ import { specialties } from "@/lib/specialties";
 export const metadata: Metadata = {
   title: "Especialidades",
   description:
-    "Cirugía genital, andrología, infertilidad masculina y cirugía reconstructiva uretral. Conoce todas las áreas de atención del Dr. Cristóbal Bettancourt en Temuco.",
+    "Cirugía genital, andrología, infertilidad masculina, cirugía reconstructiva uretral y urología general (próstata, cálculos renales, incontinencia). Conoce todas las áreas de atención del Dr. Cristóbal Bettancourt en Temuco.",
   alternates: { canonical: "/especialidades" },
 };
 
@@ -23,7 +23,7 @@ export default function SpecialtiesPage() {
       <Hero
         eyebrow="Áreas de atención"
         title="Especialidades"
-        description="Diagnóstico y tratamiento integral en cirugía genital, andrología, infertilidad masculina y cirugía reconstructiva uretral."
+        description="Diagnóstico y tratamiento integral en cirugía genital, andrología, infertilidad masculina, cirugía reconstructiva uretral y urología general."
       />
       <section className="py-16">
         <div className="mx-auto max-w-7xl space-y-12 px-4 lg:px-8">
