@@ -35,6 +35,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const libraryTopicRoutes = libraryCategories.flatMap((c) =>
+    c.topics.map((t) => ({
+      url: `${siteConfig.url}/biblioteca-educativa/${c.slug}/${t.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
+
   const blogRoutes = getAllBlogSlugs().map((slug) => ({
     url: `${siteConfig.url}/blog/${slug}`,
     lastModified: new Date(),
@@ -42,5 +51,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...specialtyRoutes, ...libraryRoutes, ...blogRoutes];
+  return [...staticRoutes, ...specialtyRoutes, ...libraryRoutes, ...libraryTopicRoutes, ...blogRoutes];
 }
