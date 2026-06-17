@@ -10,7 +10,7 @@ import { getAllBlogPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Artículos sobre urología, andrología, fertilidad masculina y cirugía reconstructiva uretral, escritos por el Dr. Cristóbal Betancourt.",
+    "Artículos sobre urología, andrología, fertilidad masculina y cirugía reconstructiva uretral, escritos por el Dr. Cristóbal Bettancourt.",
   alternates: { canonical: "/blog" },
 };
 

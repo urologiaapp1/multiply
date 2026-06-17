@@ -161,7 +161,7 @@ export default async function SpecialtyPage({
 
       <CallToAction
         title={`¿Tienes dudas sobre ${specialty.name.toLowerCase()}?`}
-        description="Agenda una consulta y recibe una evaluación personalizada con el Dr. Cristóbal Betancourt."
+        description="Agenda una consulta y recibe una evaluación personalizada con el Dr. Cristóbal Bettancourt."
       />
     </>
   );

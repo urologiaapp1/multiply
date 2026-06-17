@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Dr. Cristóbal Betancourt",
-  shortName: "Dr. Betancourt Urología",
-  title: "Dr. Cristóbal Betancourt | Urólogo en Temuco",
+  name: "Dr. Cristóbal Bettancourt",
+  shortName: "Dr. Bettancourt Urología",
+  title: "Dr. Cristóbal Bettancourt | Urólogo en Temuco",
   description:
     "Urólogo en Temuco especializado en cirugía genital, vasectomía, circuncisión, andrología y cirugía reconstructiva uretral. Atención médica de excelencia, cercana y basada en evidencia.",
   url: "https://www.drbetancourturologia.cl",

@@ -18,7 +18,7 @@ el sitio la reconozca automáticamente.
 | Archivo | Prompt |
 |---|---|
 | `public/images/og-default.jpg` (1200×630) | Imagen de portada institucional para redes sociales, mostrando un ícono abstracto de salud urológica (gota, riñón estilizado o silueta médica) sobre fondo azul institucional con espacio para texto, estilo limpio y corporativo. |
-| `public/images/doctor/retrato-dr-betancourt.jpg` (1000×1250) | NOTA: esta debe ser una FOTOGRAFÍA REAL del Dr. Betancourt, no ilustración. Súbela tú directamente cuando la tengas; no se genera con IA. |
+| `public/images/doctor/retrato-dr-betancourt.jpg` (1000×1250) | NOTA: esta debe ser una FOTOGRAFÍA REAL del Dr. Bettancourt, no ilustración. Súbela tú directamente cuando la tengas; no se genera con IA. |
 | `public/images/doctor/consulta-ilustracion.jpg` (1200×900) | Ilustración de una consulta médica institucional: doctor y paciente conversando en un escritorio clínico moderno, ambiente cálido y profesional, sin rostros detallados (estilo icónico/abstracto). |
 
 ## 2. Especialidades (una por cada slug, 1200×900)

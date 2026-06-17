@@ -25,7 +25,7 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Método de anticoncepción permanente, seguro y mínimamente invasivo para el hombre.",
-    seoTitle: "Vasectomía en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Vasectomía en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Vasectomía sin bisturí en Temuco: procedimiento ambulatorio, rápido y de alta efectividad. Información completa, recuperación y agenda de hora.",
     keywords: ["vasectomía Temuco", "vasectomía sin bisturí", "anticoncepción masculina Chile"],
@@ -91,7 +91,7 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Extirpación quirúrgica del prepucio por causas médicas o decisión personal, en adultos y niños.",
-    seoTitle: "Circuncisión en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Circuncisión en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Circuncisión en adultos y niños en Temuco. Técnica segura, indicaciones médicas, recuperación y resultados estéticos. Agenda tu evaluación.",
     keywords: ["circuncisión Temuco", "circuncisión adultos Chile", "fimosis tratamiento"],
@@ -154,7 +154,7 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Estrechez del prepucio que impide su retracción completa sobre el glande.",
-    seoTitle: "Tratamiento de Fimosis en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Tratamiento de Fimosis en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Diagnóstico y tratamiento de fimosis en niños y adultos en Temuco: desde corticoides tópicos hasta cirugía. Atención especializada.",
     keywords: ["fimosis Temuco", "tratamiento fimosis", "fimosis niños adultos"],
@@ -213,9 +213,9 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Acortamiento del frenillo prepucial que puede limitar la retracción y causar dolor en la erección.",
-    seoTitle: "Frenillo corto: tratamiento en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Frenillo corto: tratamiento en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
-      "Corrección quirúrgica de frenillo corto (frenuloplastía) en Temuco. Evaluación y tratamiento personalizado con el Dr. Cristóbal Betancourt.",
+      "Corrección quirúrgica de frenillo corto (frenuloplastía) en Temuco. Evaluación y tratamiento personalizado con el Dr. Cristóbal Bettancourt.",
     keywords: ["frenillo corto", "frenuloplastía Temuco", "frenillo peneano"],
     resumen:
       "El frenillo corto es una banda de tejido prepucial más corta de lo habitual que limita la retracción completa del prepucio y puede generar dolor o pequeñas laceraciones durante la actividad sexual. Su corrección quirúrgica (frenuloplastía) es sencilla y resolutiva.",
@@ -265,7 +265,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Dificultad persistente para lograr o mantener una erección suficiente para la actividad sexual.",
-    seoTitle: "Disfunción eréctil en Temuco | Tratamiento Dr. Betancourt",
+    seoTitle: "Disfunción eréctil en Temuco | Tratamiento Dr. Bettancourt",
     seoDescription:
       "Evaluación y tratamiento integral de la disfunción eréctil en Temuco: causas, exámenes y opciones terapéuticas, desde fármacos hasta prótesis peneana.",
     keywords: ["disfunción eréctil Temuco", "tratamiento disfunción eréctil Chile", "andrólogo Temuco"],
@@ -325,7 +325,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Desviación del eje del pene en erección, congénita o adquirida.",
-    seoTitle: "Curvatura peneana en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Curvatura peneana en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Evaluación y corrección de curvatura peneana congénita y adquirida en Temuco. Diagnóstico preciso y alternativas quirúrgicas y no quirúrgicas.",
     keywords: ["curvatura peneana Temuco", "pene curvo tratamiento", "cirugía curvatura peneana"],
@@ -378,7 +378,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Formación de placas fibrosas en el pene que provocan curvatura, dolor y acortamiento.",
-    seoTitle: "Enfermedad de Peyronie en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Enfermedad de Peyronie en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Diagnóstico y tratamiento de la enfermedad de Peyronie en Temuco: fase aguda, fase crónica y opciones quirúrgicas. Atención especializada en andrología.",
     keywords: ["enfermedad de Peyronie Temuco", "Peyronie tratamiento Chile", "placa peneana"],
@@ -439,7 +439,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Solución quirúrgica definitiva para la disfunción eréctil refractaria a otros tratamientos.",
-    seoTitle: "Prótesis peneana en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Prótesis peneana en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Cirugía de prótesis peneana inflable y maleable en Temuco. Evaluación, técnica quirúrgica, beneficios y recuperación con un especialista en andrología.",
     keywords: ["prótesis peneana Temuco", "implante peneano Chile", "disfunción eréctil severa"],
@@ -497,7 +497,7 @@ export const specialties: Specialty[] = [
     category: "Infertilidad",
     shortDescription:
       "Evaluación y tratamiento de las causas masculinas de dificultad para concebir.",
-    seoTitle: "Infertilidad masculina en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Infertilidad masculina en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Diagnóstico y tratamiento de infertilidad masculina en Temuco: espermiograma, causas, varicocele y opciones de tratamiento para lograr el embarazo.",
     keywords: ["infertilidad masculina Temuco", "espermiograma Chile", "fertilidad hombre"],
@@ -550,7 +550,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Dilatación anormal de las venas del cordón espermático, causa frecuente de infertilidad.",
-    seoTitle: "Varicocele en Temuco | Diagnóstico y cirugía | Dr. Betancourt",
+    seoTitle: "Varicocele en Temuco | Diagnóstico y cirugía | Dr. Bettancourt",
     seoDescription:
       "Tratamiento de varicocele en Temuco: diagnóstico clínico, ecográfico y microcirugía. Mejora la fertilidad y el dolor testicular asociado.",
     keywords: ["varicocele Temuco", "varicocelectomía Chile", "varicocele tratamiento"],
@@ -604,7 +604,7 @@ export const specialties: Specialty[] = [
     category: "Andrología",
     shortDescription:
       "Síntoma con múltiples causas, desde benignas hasta urgencias urológicas que requieren evaluación inmediata.",
-    seoTitle: "Dolor testicular en Temuco | Evaluación urgente | Dr. Betancourt",
+    seoTitle: "Dolor testicular en Temuco | Evaluación urgente | Dr. Bettancourt",
     seoDescription:
       "Evaluación de dolor testicular agudo y crónico en Temuco. Diagnóstico diferencial, urgencias urológicas y tratamiento especializado.",
     keywords: ["dolor testicular Temuco", "dolor testicular causas", "urgencia urológica Temuco"],
@@ -656,7 +656,7 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Acumulación de líquido alrededor del testículo que provoca aumento de volumen escrotal indoloro.",
-    seoTitle: "Hidrocele en Temuco | Diagnóstico y cirugía | Dr. Betancourt",
+    seoTitle: "Hidrocele en Temuco | Diagnóstico y cirugía | Dr. Bettancourt",
     seoDescription:
       "Tratamiento quirúrgico de hidrocele en Temuco: diagnóstico, indicaciones de cirugía y recuperación con un urólogo especialista.",
     keywords: ["hidrocele Temuco", "cirugía hidrocele Chile", "aumento de volumen escrotal"],
@@ -709,7 +709,7 @@ export const specialties: Specialty[] = [
     category: "Cirugía genital",
     shortDescription:
       "Formación quística benigna en el epidídimo, generalmente asintomática y de manejo conservador.",
-    seoTitle: "Quiste de epidídimo en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Quiste de epidídimo en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Diagnóstico y manejo del quiste de epidídimo (espermatocele) en Temuco. Evaluación ecográfica y criterios de tratamiento quirúrgico.",
     keywords: ["quiste de epidídimo Temuco", "espermatocele tratamiento", "nódulo testicular benigno"],
@@ -757,7 +757,7 @@ export const specialties: Specialty[] = [
     category: "Reconstrucción uretral",
     shortDescription:
       "Estrechamiento de la uretra que dificulta el paso de la orina, de causa congénita, traumática o inflamatoria.",
-    seoTitle: "Estenosis uretral en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Estenosis uretral en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Diagnóstico y tratamiento de la estenosis uretral en Temuco: dilatación, uretrotomía y uretroplastía. Especialista en cirugía reconstructiva uretral.",
     keywords: ["estenosis uretral Temuco", "uretroplastía Chile", "estrechez uretral tratamiento"],
@@ -813,7 +813,7 @@ export const specialties: Specialty[] = [
     category: "Reconstrucción uretral",
     shortDescription:
       "Cirugía reconstructiva de referencia para el tratamiento definitivo de la estenosis uretral.",
-    seoTitle: "Uretroplastía en Temuco y Chile | Dr. Cristóbal Betancourt",
+    seoTitle: "Uretroplastía en Temuco y Chile | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Uretroplastía con injerto de mucosa oral o anastomótica en Temuco. Cirugía reconstructiva uretral de alta complejidad con resultados duraderos.",
     keywords: ["uretroplastía Temuco", "uretroplastía Chile", "cirugía reconstructiva uretral"],
@@ -859,7 +859,7 @@ export const specialties: Specialty[] = [
       {
         question: "¿Es una cirugía de alta complejidad?",
         answer:
-          "Sí, requiere entrenamiento especializado en cirugía reconstructiva uretral. El Dr. Betancourt cuenta con formación específica en esta área para ofrecer resultados óptimos.",
+          "Sí, requiere entrenamiento especializado en cirugía reconstructiva uretral. El Dr. Bettancourt cuenta con formación específica en esta área para ofrecer resultados óptimos.",
       },
     ],
     imagePrompt:
@@ -871,7 +871,7 @@ export const specialties: Specialty[] = [
     category: "Reconstrucción uretral",
     shortDescription:
       "Abordaje integral de patologías complejas de la uretra mediante técnicas reconstructivas avanzadas.",
-    seoTitle: "Reconstrucción uretral compleja en Temuco | Dr. Betancourt",
+    seoTitle: "Reconstrucción uretral compleja en Temuco | Dr. Bettancourt",
     seoDescription:
       "Cirugía reconstructiva uretral compleja en Temuco: estenosis recurrentes, trauma, hipospadias en adultos y fístulas. Atención de alta especialidad.",
     keywords: ["reconstrucción uretral Chile", "cirugía uretral compleja", "uretra Temuco"],
@@ -924,7 +924,7 @@ export const specialties: Specialty[] = [
     category: "Reconstrucción uretral",
     shortDescription:
       "Lesiones traumáticas de la uretra, frecuentemente asociadas a fracturas de pelvis, que requieren manejo especializado.",
-    seoTitle: "Trauma uretral en Temuco | Dr. Cristóbal Betancourt",
+    seoTitle: "Trauma uretral en Temuco | Dr. Cristóbal Bettancourt",
     seoDescription:
       "Manejo de trauma uretral agudo y sus secuelas en Temuco: diagnóstico, manejo inicial y reconstrucción diferida con un especialista en cirugía uretral.",
     keywords: ["trauma uretral Temuco", "lesión uretral fractura de pelvis", "cirugía uretral trauma"],

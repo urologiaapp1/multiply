@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contacto",
   description:
-    "Contáctanos para consultas generales. Dr. Cristóbal Betancourt, urólogo en Temuco, Av. Alemania 0671, Of. 502.",
+    "Contáctanos para consultas generales. Dr. Cristóbal Bettancourt, urólogo en Temuco, Av. Alemania 0671, Of. 502.",
   alternates: { canonical: "/contacto" },
 };
 
