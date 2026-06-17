@@ -7,7 +7,7 @@ import { Timeline } from "@/components/sections/timeline";
 export const metadata: Metadata = {
   title: "Agenda tu hora",
   description:
-    "Solicita tu hora de consulta con el Dr. Cristóbal Betancourt, urólogo en Temuco. Respuesta de confirmación en menos de 24 horas hábiles.",
+    "Solicita tu hora de consulta con el Dr. Cristóbal Bettancourt, urólogo en Temuco. Respuesta de confirmación en menos de 24 horas hábiles.",
   alternates: { canonical: "/agenda" },
 };
 

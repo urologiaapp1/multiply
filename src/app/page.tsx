@@ -17,13 +17,13 @@ export default function HomePage() {
       <Hero
         eyebrow="Urología y andrología en Temuco"
         title="Atención urológica de excelencia, cercana y basada en evidencia"
-        description="El Dr. Cristóbal Betancourt ofrece diagnóstico y tratamiento especializado en cirugía genital, andrología y cirugía reconstructiva uretral, con un enfoque claro y humano para cada paciente."
+        description="El Dr. Cristóbal Bettancourt ofrece diagnóstico y tratamiento especializado en cirugía genital, andrología y cirugía reconstructiva uretral, con un enfoque claro y humano para cada paciente."
       >
         <Button asChild size="lg">
           <Link href="/agenda">Agendar hora</Link>
         </Button>
         <Button asChild size="lg" variant="secondary">
-          <Link href="/sobre-el-doctor">Conocer al Dr. Betancourt</Link>
+          <Link href="/sobre-el-doctor">Conocer al Dr. Bettancourt</Link>
         </Button>
       </Hero>
 
@@ -87,14 +87,14 @@ export default function HomePage() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
               <p className="text-sm font-semibold uppercase tracking-wide text-brand-green">
-                Sobre el Dr. Betancourt
+                Sobre el Dr. Bettancourt
               </p>
               <h2 className="mt-1 text-2xl font-bold text-brand-blue-dark sm:text-3xl">
                 Especialista en urología, andrología y cirugía reconstructiva uretral
               </h2>
               <p className="mt-4 leading-relaxed text-slate-600">
                 Con formación de subespecialidad en cirugía reconstructiva uretral, el Dr.
-                Betancourt combina rigor técnico con una comunicación clara y empática,
+                Bettancourt combina rigor técnico con una comunicación clara y empática,
                 acompañando a cada paciente desde el diagnóstico hasta la recuperación completa.
               </p>
               <Button asChild className="mt-6">

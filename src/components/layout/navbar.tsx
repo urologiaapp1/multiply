@@ -25,7 +25,7 @@ export function Navbar() {
             CB
           </span>
           <span className="hidden text-sm leading-tight sm:block">
-            Dr. Cristóbal Betancourt
+            Dr. Cristóbal Bettancourt
             <span className="block text-xs font-normal text-slate-500">
               Urólogo · Temuco
             </span>

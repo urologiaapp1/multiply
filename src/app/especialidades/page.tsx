@@ -10,7 +10,7 @@ import { specialties } from "@/lib/specialties";
 export const metadata: Metadata = {
   title: "Especialidades",
   description:
-    "Cirugía genital, andrología, infertilidad masculina y cirugía reconstructiva uretral. Conoce todas las áreas de atención del Dr. Cristóbal Betancourt en Temuco.",
+    "Cirugía genital, andrología, infertilidad masculina y cirugía reconstructiva uretral. Conoce todas las áreas de atención del Dr. Cristóbal Bettancourt en Temuco.",
   alternates: { canonical: "/especialidades" },
 };
 

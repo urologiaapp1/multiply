@@ -8,7 +8,7 @@ import { Timeline } from "@/components/sections/timeline";
 export const metadata: Metadata = {
   title: "Sobre el Doctor",
   description:
-    "Conoce al Dr. Cristóbal Betancourt, urólogo en Temuco especializado en cirugía genital, andrología y cirugía reconstructiva uretral.",
+    "Conoce al Dr. Cristóbal Bettancourt, urólogo en Temuco especializado en cirugía genital, andrología y cirugía reconstructiva uretral.",
   alternates: { canonical: "/sobre-el-doctor" },
 };
 
@@ -25,8 +25,8 @@ const credentials = [
   },
   {
     icon: BookOpen,
-    title: "Subespecialidad en cirugía reconstructiva uretral",
-    description: "Entrenamiento avanzado en andrología y reconstrucción uretral compleja.",
+    title: "Máster en Andrología y Cirugía Reconstructiva del Área Genital Masculina",
+    description: "Formación avanzada de subespecialidad en andrología y reconstrucción genital y uretral compleja.",
   },
   {
     icon: Users,
@@ -46,9 +46,9 @@ const timeline = [
       "Formación integral en patología urológica general, con énfasis en cirugía genital y andrología.",
   },
   {
-    title: "Subespecialización en reconstrucción uretral",
+    title: "Máster en Andrología y Cirugía Reconstructiva del Área Genital Masculina",
     description:
-      "Entrenamiento avanzado en técnicas de uretroplastía y cirugía reconstructiva de alta complejidad.",
+      "Formación avanzada en andrología, uretroplastía y cirugía reconstructiva genital de alta complejidad.",
   },
   {
     title: "Práctica clínica en Temuco",
@@ -63,7 +63,7 @@ export default function AboutPage() {
       <Breadcrumb items={[{ label: "Sobre el Doctor" }]} />
       <Hero
         eyebrow="Conócelo"
-        title="Dr. Cristóbal Betancourt"
+        title="Dr. Cristóbal Bettancourt"
         description="Urólogo especializado en cirugía genital, andrología y cirugía reconstructiva uretral, comprometido con una medicina clara, rigurosa y cercana."
       />
 
@@ -73,16 +73,17 @@ export default function AboutPage() {
           <div>
             <h2 className="text-2xl font-bold text-brand-blue-dark">Filosofía de atención</h2>
             <p className="mt-4 leading-relaxed text-slate-600">
-              Cada consulta comienza con una escucha atenta. El Dr. Betancourt cree que un buen
+              Cada consulta comienza con una escucha atenta. El Dr. Bettancourt cree que un buen
               diagnóstico y un tratamiento exitoso dependen tanto del conocimiento técnico como de
               una comunicación clara, sin tecnicismos innecesarios, que permita al paciente tomar
               decisiones informadas sobre su salud.
             </p>
             <p className="mt-4 leading-relaxed text-slate-600">
-              Su formación de subespecialidad en cirugía reconstructiva uretral lo posiciona como
-              referente en el manejo de patologías de alta complejidad en la región, ofreciendo a
-              los pacientes de Temuco y la Araucanía alternativas que antes requerían
-              desplazarse a centros de mayor tamaño.
+              Es Máster en Andrología y Cirugía Reconstructiva del Área Genital Masculina,
+              formación de subespecialidad que lo posiciona como referente en el manejo de
+              patologías de alta complejidad en la región, ofreciendo a los pacientes de Temuco
+              y la Araucanía alternativas que antes requerían desplazarse a centros de mayor
+              tamaño.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {credentials.map((item) => (

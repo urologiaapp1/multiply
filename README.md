@@ -1,6 +1,6 @@
-# Dr. Cristóbal Betancourt — Urólogo en Temuco
+# Dr. Cristóbal Bettancourt — Urólogo en Temuco
 
-Sitio web institucional para el Dr. Cristóbal Betancourt, urólogo especializado
+Sitio web institucional para el Dr. Cristóbal Bettancourt, urólogo especializado
 en cirugía genital, andrología, infertilidad masculina y cirugía
 reconstructiva uretral, en Temuco, Chile.
 
