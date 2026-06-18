@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin, AtSign, Link2 } from "lucide-react";
+import { MessageCircle, Mail, MapPin, AtSign, Link2 } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 import { specialties } from "@/lib/specialties";
 
@@ -78,8 +78,10 @@ export function Footer() {
               </span>
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="h-4 w-4 shrink-0" />
-              <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
+              <MessageCircle className="h-4 w-4 shrink-0" />
+              <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer">
+                {siteConfig.phone}
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 shrink-0" />

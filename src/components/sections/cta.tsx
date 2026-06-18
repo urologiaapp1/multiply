@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarDays, Phone } from "lucide-react";
+import { CalendarDays, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
 
@@ -23,9 +23,9 @@ export function CallToAction({
             </Link>
           </Button>
           <Button asChild size="lg" variant="secondary" className="bg-transparent text-white border-white hover:bg-white/10">
-            <a href={siteConfig.phoneHref}>
-              <Phone className="h-4 w-4" />
-              Llamar a la clínica
+            <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer">
+              <MessageCircle className="h-4 w-4" />
+              Escríbenos por WhatsApp
             </a>
           </Button>
         </div>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { MessageCircle, Mail, MapPin, Clock } from "lucide-react";
 import { Hero } from "@/components/sections/hero";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { ContactForm } from "@/components/forms/contact-form";
@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contacto",
   description:
-    "Contáctanos para consultas generales. Dr. Cristóbal Bettancourt, urólogo en Temuco, Av. Alemania 0671, Of. 502.",
+    "Contáctanos para consultas generales. Dr. Cristóbal Bettancourt, urólogo en Temuco, Gabriela Mistral 01955.",
   alternates: { canonical: "/contacto" },
 };
 
@@ -34,8 +34,10 @@ export default function ContactPage() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 shrink-0 text-brand-blue" />
-                <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
+                <MessageCircle className="h-5 w-5 shrink-0 text-brand-blue" />
+                <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer">
+                  {siteConfig.phone} (WhatsApp)
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-brand-blue" />

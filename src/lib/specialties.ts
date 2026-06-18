@@ -1309,27 +1309,27 @@ export const specialties: Specialty[] = [
       "Ilustración médica vectorial del tracto urinario masculino (riñones, vejiga, próstata, uretra), estilo institucional limpio, paleta azul y blanco, sin contenido explícito.",
   },
   {
-    slug: "rezum-y-holep",
-    name: "Cirugía mínimamente invasiva de próstata: Rezum y HoLEP",
+    slug: "rezum",
+    name: "Rezum: terapia con vapor de agua para la próstata",
     category: "Urología general",
     shortDescription:
-      "Tratamientos modernos para la próstata aumentada: terapia con vapor de agua (Rezum) y enucleación con láser de holmio (HoLEP).",
-    seoTitle: "Rezum y HoLEP en Temuco | Cirugía de próstata | Dr. Cristóbal Bettancourt",
+      "Tratamiento mínimamente invasivo de la próstata aumentada mediante vapor de agua, ambulatorio y con alta preservación de la eyaculación.",
+    seoTitle: "Rezum en Temuco | Tratamiento de próstata aumentada | Dr. Cristóbal Bettancourt",
     seoDescription:
-      "Tratamiento de la próstata aumentada con Rezum y HoLEP en Temuco: en qué consisten, manejo postoperatorio y respuestas a las dudas más frecuentes de los pacientes.",
+      "Rezum en Temuco: terapia con vapor de agua para la hiperplasia prostática benigna. Cómo funciona, manejo postoperatorio y respuestas a las dudas más frecuentes.",
     keywords: [
       "Rezum Temuco",
-      "HoLEP Chile",
-      "cirugía de próstata láser",
-      "tratamiento próstata aumentada Temuco",
+      "Rezum Chile",
+      "vapor de agua próstata",
+      "tratamiento próstata aumentada sin cirugía mayor",
     ],
     resumen:
-      "Rezum y HoLEP son dos alternativas modernas para tratar la hiperplasia prostática benigna (próstata aumentada) cuando el tratamiento médico no es suficiente. Rezum utiliza vapor de agua para reducir el tejido prostático obstructivo con anestesia local, mientras que HoLEP utiliza un láser de holmio para enuclear (remover) el tejido prostático de forma endoscópica, siendo especialmente efectivo en próstatas de gran tamaño.",
+      "Rezum es un tratamiento mínimamente invasivo para la hiperplasia prostática benigna (próstata aumentada) que utiliza vapor de agua estéril para reducir selectivamente el tejido prostático obstructivo. Se indica cuando el tratamiento médico no es suficiente, y es especialmente atractivo para hombres que buscan preservar la función eyaculatoria.",
     indicaciones: [
       "Síntomas urinarios obstructivos moderados a severos que no responden al tratamiento médico.",
       "Pacientes que buscan evitar o reducir el uso prolongado de medicamentos para la próstata.",
-      "HoLEP especialmente indicado en próstatas de gran volumen, donde otras técnicas tienen limitaciones.",
-      "Rezum como alternativa para pacientes que buscan preservar la función eyaculatoria.",
+      "Próstatas de tamaño moderado, donde Rezum ofrece muy buenos resultados.",
+      "Pacientes para quienes preservar la eyaculación es una prioridad clínica.",
     ],
     sintomas: [
       "Chorro urinario débil o intermitente.",
@@ -1339,29 +1339,29 @@ export const specialties: Specialty[] = [
     ],
     diagnostico: [
       "Cuestionario de síntomas validado (IPSS) y examen físico con tacto rectal.",
-      "Ecografía prostática para medir el volumen y planificar la técnica más adecuada.",
+      "Ecografía prostática para medir el volumen y confirmar que Rezum es la técnica adecuada.",
       "PSA en sangre y flujometría urinaria.",
-      "Cistoscopia en casos seleccionados antes de definir la técnica quirúrgica.",
+      "Cistoscopia en casos seleccionados antes de definir el procedimiento.",
     ],
     tratamiento: [
-      "Rezum: aplicación de vapor de agua estéril directamente en el tejido prostático obstructivo mediante un dispositivo endoscópico, en sesión ambulatoria con anestesia local o sedación leve.",
-      "HoLEP: enucleación endoscópica del tejido prostático mediante láser de holmio, con extracción del tejido y hospitalización breve.",
-      "Selección de la técnica según volumen prostático, expectativas del paciente (preservación eyaculatoria) y evaluación urológica individual.",
+      "Aplicación de vapor de agua estéril directamente en el tejido prostático obstructivo mediante un dispositivo endoscópico.",
+      "Procedimiento ambulatorio, realizado con anestesia local o sedación leve, sin cortes ni incisiones.",
+      "El tejido tratado es reabsorbido progresivamente por el cuerpo en las semanas siguientes al procedimiento.",
     ],
     beneficios: [
       "Mejoría significativa y duradera del flujo urinario y los síntomas obstructivos.",
-      "Rezum: procedimiento ambulatorio, de recuperación rápida y con mayor preservación de la función eyaculatoria.",
-      "HoLEP: altamente efectivo incluso en próstatas muy grandes, con baja tasa de necesidad de reintervención a largo plazo.",
+      "Procedimiento ambulatorio, breve, con recuperación rápida.",
+      "Alta preservación de la función eyaculatoria, atractivo para hombres jóvenes o sexualmente activos.",
       "Reducción o eliminación de la necesidad de medicamentos para la próstata.",
     ],
     riesgos: [
-      "Molestias urinarias transitorias (ardor, urgencia) en las primeras semanas, más frecuentes con Rezum mientras el tejido tratado se reabsorbe.",
+      "Molestias urinarias transitorias (ardor, urgencia) en las primeras semanas, mientras el tejido tratado se reabsorbe.",
       "Sangrado o infección urinaria postoperatoria, generalmente manejables.",
-      "Eyaculación retrógrada, más frecuente con HoLEP que con Rezum.",
-      "Necesidad de sonda urinaria temporal tras el procedimiento.",
+      "Necesidad de sonda urinaria temporal en algunos pacientes tras el procedimiento.",
+      "Posibilidad de requerir un nuevo tratamiento en el futuro si la próstata vuelve a crecer significativamente.",
     ],
     recuperacion:
-      "Con Rezum, el efecto completo sobre los síntomas se aprecia progresivamente durante 4 a 6 semanas, mientras el tejido tratado se reabsorbe; el paciente suele volver a sus actividades habituales en pocos días. Con HoLEP, la hospitalización es de 1 a 2 días, con sonda urinaria por 24 a 48 horas, y la recuperación funcional completa ocurre en 2 a 4 semanas.",
+      "El efecto completo sobre los síntomas se aprecia progresivamente durante 4 a 6 semanas, mientras el tejido tratado se reabsorbe. El paciente suele volver a sus actividades habituales en pocos días, y a la actividad sexual generalmente entre 2 y 4 semanas, según la evolución individual.",
     faqs: [
       {
         question: "¿Rezum o HoLEP, cuál es mejor para mí?",
@@ -1371,26 +1371,110 @@ export const specialties: Specialty[] = [
       {
         question: "¿Voy a sentir dolor durante o después del procedimiento?",
         answer:
-          "Ambos procedimientos se realizan con anestesia adecuada (local, sedación o anestesia general según el caso) y el dolor postoperatorio es generalmente leve y bien controlado con analgesia habitual.",
+          "Rezum se realiza con anestesia local o sedación leve, y el dolor postoperatorio es generalmente leve y bien controlado con analgesia habitual.",
+      },
+      {
+        question: "¿Cuánto tiempo debo usar sonda urinaria después del procedimiento?",
+        answer:
+          "En muchos casos no se requiere sonda o se usa solo por pocos días, a diferencia de procedimientos quirúrgicos mayores.",
+      },
+      {
+        question: "¿Cuándo puedo volver a tener actividad sexual después del procedimiento?",
+        answer:
+          "En general se recomienda esperar entre 2 y 4 semanas, lo cual se confirma en los controles postoperatorios.",
+      },
+      {
+        question: "¿Rezum elimina el riesgo de cáncer de próstata?",
+        answer:
+          "No. Rezum trata la hiperplasia benigna, no el cáncer. El control con PSA y tacto rectal debe continuarse según indicación médica independientemente del tratamiento recibido.",
+      },
+    ],
+    imagePrompt:
+      "Ilustración médica vectorial de un procedimiento endoscópico de próstata mostrando vapor de agua de forma esquemática y no explícita, estilo institucional limpio, paleta azul y blanco.",
+  },
+  {
+    slug: "holep",
+    name: "HoLEP: enucleación con láser de holmio",
+    category: "Urología general",
+    shortDescription:
+      "Cirugía endoscópica con láser de holmio para tratar la próstata aumentada, altamente efectiva incluso en próstatas muy grandes.",
+    seoTitle: "HoLEP en Temuco | Cirugía láser de próstata | Dr. Cristóbal Bettancourt",
+    seoDescription:
+      "HoLEP en Temuco: enucleación con láser de holmio para la hiperplasia prostática benigna. En qué consiste, manejo postoperatorio y respuestas a las dudas más frecuentes.",
+    keywords: [
+      "HoLEP Temuco",
+      "HoLEP Chile",
+      "cirugía de próstata láser",
+      "tratamiento próstata grande Temuco",
+    ],
+    resumen:
+      "HoLEP es una técnica endoscópica que utiliza un láser de holmio para separar (enuclear) el tejido prostático obstructivo de la cápsula prostática, de forma similar a remover la pulpa de una mandarina dejando la cáscara intacta. Es especialmente efectiva en próstatas de gran tamaño, donde otras técnicas tienen limitaciones, con resultados muy duraderos.",
+    indicaciones: [
+      "Síntomas urinarios obstructivos moderados a severos que no responden al tratamiento médico.",
+      "Próstatas de gran volumen, donde HoLEP tiene ventaja clara sobre otras técnicas.",
+      "Pacientes con anticoagulación crónica, que se benefician del buen control del sangrado intraoperatorio de HoLEP.",
+      "Pacientes que buscan un resultado muy duradero, con baja necesidad de retratamiento.",
+    ],
+    sintomas: [
+      "Chorro urinario débil o intermitente.",
+      "Necesidad frecuente de orinar, incluyendo de noche.",
+      "Sensación de vaciamiento incompleto de la vejiga.",
+      "Episodios de retención urinaria en casos más avanzados.",
+    ],
+    diagnostico: [
+      "Cuestionario de síntomas validado (IPSS) y examen físico con tacto rectal.",
+      "Ecografía prostática para medir el volumen y confirmar que HoLEP es la técnica adecuada.",
+      "PSA en sangre y flujometría urinaria.",
+      "Cistoscopia en casos seleccionados antes de definir el procedimiento.",
+    ],
+    tratamiento: [
+      "Enucleación endoscópica del tejido prostático obstructivo mediante láser de holmio.",
+      "Extracción del tejido enucleado, que se envía a estudio histológico.",
+      "Hospitalización breve, generalmente de 1 a 2 días.",
+    ],
+    beneficios: [
+      "Extremadamente efectivo incluso en próstatas muy grandes.",
+      "Resultados muy duraderos, con baja tasa de necesidad de reintervención a largo plazo.",
+      "Buen control del sangrado intraoperatorio, favorable en pacientes anticoagulados.",
+      "Mejoría inmediata y significativa del flujo urinario tras la cirugía.",
+    ],
+    riesgos: [
+      "Sangrado o infección urinaria postoperatoria, generalmente manejables.",
+      "Eyaculación retrógrada, relativamente frecuente tras este procedimiento.",
+      "Necesidad de sonda urinaria temporal tras la cirugía.",
+      "Molestias urinarias transitorias (ardor, urgencia) en las primeras semanas.",
+    ],
+    recuperacion:
+      "La hospitalización es de 1 a 2 días, con sonda urinaria por 24 a 48 horas. La recuperación funcional completa ocurre en 2 a 4 semanas, con mejoría del flujo urinario notoria desde los primeros días.",
+    faqs: [
+      {
+        question: "¿Rezum o HoLEP, cuál es mejor para mí?",
+        answer:
+          "Depende principalmente del tamaño de la próstata y de tus prioridades: HoLEP es más efectivo en próstatas grandes con resultados muy duraderos, mientras que Rezum es ambulatorio y preserva mejor la eyaculación. La elección se decide en conjunto durante la evaluación urológica.",
+      },
+      {
+        question: "¿Voy a sentir dolor durante o después de la cirugía?",
+        answer:
+          "HoLEP se realiza con anestesia general o raquídea, y el dolor postoperatorio es generalmente leve y bien controlado con analgesia habitual.",
       },
       {
         question: "¿Cuánto tiempo debo usar sonda urinaria después de la cirugía?",
         answer:
-          "Con Rezum, en muchos casos no se requiere sonda o se usa por pocos días. Con HoLEP, habitualmente se mantiene entre 24 y 48 horas tras el procedimiento, retirándose antes del alta o en el control inmediato.",
+          "Habitualmente se mantiene entre 24 y 48 horas tras el procedimiento, retirándose antes del alta o en el control inmediato.",
       },
       {
         question: "¿Cuándo puedo volver a tener actividad sexual después de la cirugía?",
         answer:
-          "En general se recomienda esperar entre 2 y 4 semanas, según el procedimiento y la evolución individual, lo cual se confirma en los controles postoperatorios.",
+          "En general se recomienda esperar entre 2 y 4 semanas, según la evolución individual, lo cual se confirma en los controles postoperatorios.",
       },
       {
-        question: "¿Estos tratamientos eliminan el riesgo de cáncer de próstata?",
+        question: "¿HoLEP elimina el riesgo de cáncer de próstata?",
         answer:
-          "No. Ambos tratan la hiperplasia benigna, no el cáncer. El control con PSA y tacto rectal debe continuarse según indicación médica independientemente del tratamiento recibido.",
+          "No. HoLEP trata la hiperplasia benigna, no el cáncer. El control con PSA y tacto rectal debe continuarse según indicación médica independientemente del tratamiento recibido.",
       },
     ],
     imagePrompt:
-      "Ilustración médica vectorial de un procedimiento endoscópico de próstata mostrando vapor de agua y láser de forma esquemática y no explícita, estilo institucional limpio, paleta azul y blanco.",
+      "Ilustración médica vectorial de un procedimiento endoscópico de próstata mostrando un láser de forma esquemática y no explícita, estilo institucional limpio, paleta azul y blanco.",
   },
   {
     slug: "cistoscopia",
