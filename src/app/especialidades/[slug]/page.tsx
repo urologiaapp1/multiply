@@ -16,6 +16,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { FaqJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
 import { specialties, getSpecialtyBySlug } from "@/lib/specialties";
 import { siteConfig } from "@/lib/site";
+import { categoryIcons, categoryAccents } from "@/lib/category-style";
 
 export function generateStaticParams() {
   return specialties.map((s) => ({ slug: s.slug }));
@@ -88,7 +89,13 @@ export default async function SpecialtyPage({
           { label: specialty.name },
         ]}
       />
-      <Hero eyebrow={specialty.category} title={specialty.name} description={specialty.shortDescription} />
+      <Hero
+        eyebrow={specialty.category}
+        title={specialty.name}
+        description={specialty.shortDescription}
+        icon={categoryIcons[specialty.category]}
+        iconAccent={categoryAccents[specialty.category]}
+      />
 
       <article className="prose-medical mx-auto max-w-3xl px-4 py-12 lg:px-0">
         <Section icon={Sparkles} title="Resumen">

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CallToAction } from "@/components/sections/cta";
 import { specialties } from "@/lib/specialties";
+import { categoryIcons, categoryAccents } from "@/lib/category-style";
 
 export const metadata: Metadata = {
   title: "Especialidades",
@@ -27,31 +28,45 @@ export default function SpecialtiesPage() {
       />
       <section className="py-16">
         <div className="mx-auto max-w-7xl space-y-12 px-4 lg:px-8">
-          {categories.map((category) => (
-            <div key={category}>
-              <h2 className="mb-6 text-xl font-bold text-brand-blue-dark">{category}</h2>
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {specialties
-                  .filter((s) => s.category === category)
-                  .map((s) => (
-                    <Card key={s.slug}>
-                      <CardHeader>
-                        <CardTitle>{s.name}</CardTitle>
-                        <CardDescription>{s.shortDescription}</CardDescription>
-                      </CardHeader>
-                      <CardContent>
-                        <Link
-                          href={`/especialidades/${s.slug}`}
-                          className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue hover:underline"
-                        >
-                          Saber más <ArrowRight className="h-4 w-4" />
-                        </Link>
-                      </CardContent>
-                    </Card>
-                  ))}
+          {categories.map((category) => {
+            const Icon = categoryIcons[category];
+            const accent = categoryAccents[category];
+            return (
+              <div key={category}>
+                <h2 className="mb-6 flex items-center gap-2 text-xl font-bold text-brand-blue-dark">
+                  <span className={`flex h-8 w-8 items-center justify-center rounded-full ${accent.bg}`}>
+                    <Icon className={`h-4 w-4 ${accent.text}`} />
+                  </span>
+                  {category}
+                </h2>
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {specialties
+                    .filter((s) => s.category === category)
+                    .map((s) => (
+                      <Card key={s.slug}>
+                        <CardHeader>
+                          <span
+                            className={`mb-2 flex h-10 w-10 items-center justify-center rounded-full ${accent.bg}`}
+                          >
+                            <Icon className={`h-5 w-5 ${accent.text}`} />
+                          </span>
+                          <CardTitle>{s.name}</CardTitle>
+                          <CardDescription>{s.shortDescription}</CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                          <Link
+                            href={`/especialidades/${s.slug}`}
+                            className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue hover:underline"
+                          >
+                            Saber más <ArrowRight className="h-4 w-4" />
+                          </Link>
+                        </CardContent>
+                      </Card>
+                    ))}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
       <CallToAction />

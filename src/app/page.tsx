@@ -101,7 +101,16 @@ export default function HomePage() {
                 <Link href="/sobre-el-doctor">Conocer su trayectoria</Link>
               </Button>
             </div>
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-brand-blue-light to-white" />
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gradient-to-br from-brand-blue-light via-white to-brand-green/5">
+              <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-brand-blue/10" />
+              <div className="absolute -bottom-12 -left-8 h-36 w-36 rounded-full bg-brand-green/10" />
+              <div className="relative flex h-full flex-col items-center justify-center gap-3 px-6 text-center">
+                <span className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-sm">
+                  <Stethoscope className="h-10 w-10 text-brand-blue" />
+                </span>
+                <p className="font-semibold text-brand-blue-dark">Dr. Cristóbal Bettancourt</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

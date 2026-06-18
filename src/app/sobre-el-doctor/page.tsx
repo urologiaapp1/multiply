@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GraduationCap, Award, BookOpen, Users } from "lucide-react";
+import { GraduationCap, Award, BookOpen, Users, Stethoscope } from "lucide-react";
 import { Hero } from "@/components/sections/hero";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { CallToAction } from "@/components/sections/cta";
@@ -69,7 +69,17 @@ export default function AboutPage() {
 
       <section className="py-16">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 lg:grid-cols-2 lg:px-8">
-          <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-brand-blue-light to-white" />
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-gradient-to-br from-brand-blue-light via-white to-brand-green/5">
+            <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-brand-blue/10" />
+            <div className="absolute -bottom-16 -left-10 h-48 w-48 rounded-full bg-brand-green/10" />
+            <div className="relative flex h-full flex-col items-center justify-center gap-4 px-8 text-center">
+              <span className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-sm">
+                <Stethoscope className="h-12 w-12 text-brand-blue" />
+              </span>
+              <p className="text-lg font-semibold text-brand-blue-dark">Dr. Cristóbal Bettancourt</p>
+              <p className="text-sm text-slate-500">Urólogo · Andrología y Cirugía Reconstructiva</p>
+            </div>
+          </div>
           <div>
             <h2 className="text-2xl font-bold text-brand-blue-dark">Filosofía de atención</h2>
             <p className="mt-4 leading-relaxed text-slate-600">
