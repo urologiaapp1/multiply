@@ -387,6 +387,114 @@ export const libraryCategories: LibraryCategory[] = [
       },
     ],
   },
+  {
+    slug: "consultas-frecuentes",
+    name: "Consultas frecuentes",
+    description:
+      "Diez temas urológicos de consulta habitual: vías urinarias, cálculos renales, vejiga, vida sexual y vasectomía.",
+    topics: [
+      {
+        slug: "infeccion-urinaria-recurrente-en-hombres-por-que-investigar",
+        title: "Infección urinaria recurrente en hombres: por qué investigar",
+        summary: "Por qué las infecciones urinarias repetidas en hombres requieren estudio adicional.",
+        content: [
+          "A diferencia de las mujeres, en quienes las infecciones urinarias aisladas suelen ser benignas y de fácil manejo, en los hombres una infección urinaria —y especialmente si se repite— casi siempre tiene una causa anatómica o funcional subyacente que debe buscarse activamente.",
+          "Causas frecuentes incluyen obstrucción por crecimiento prostático, estenosis uretral, cálculos urinarios, vaciamiento vesical incompleto o, con menor frecuencia, anomalías anatómicas congénitas.",
+          "El estudio habitual incluye urocultivo, ecografía del tracto urinario y, según el caso, flujometría o cistoscopía, para identificar y corregir la causa de fondo en lugar de solo tratar episodio por episodio con antibióticos.",
+        ],
+      },
+      {
+        slug: "calculos-renales-litiasis-renal-sintomas-y-tratamiento",
+        title: "Cálculos renales (litiasis renal): síntomas y tratamiento",
+        summary: "Cómo se presentan los cálculos renales y qué alternativas de tratamiento existen.",
+        content: [
+          "Los cálculos renales se forman cuando ciertas sustancias en la orina (calcio, oxalato, ácido úrico, entre otras) se concentran y cristalizan. El síntoma más característico es el cólico renal: un dolor intenso, tipo cólico, que suele iniciarse en la espalda o el flanco y puede irradiar hacia la ingle.",
+          "Otros síntomas incluyen sangre en la orina, náuseas, y en algunos casos fiebre si se asocia una infección, lo que constituye una urgencia urológica.",
+          "El tratamiento depende del tamaño y ubicación del cálculo: muchos cálculos pequeños se eliminan espontáneamente con hidratación y manejo del dolor, mientras que los más grandes pueden requerir litotricia (ondas de choque), ureteroscopía o, en casos seleccionados, cirugía percutánea.",
+        ],
+      },
+      {
+        slug: "sangre-en-la-orina-hematuria-cuando-preocuparse",
+        title: "Sangre en la orina (hematuria): cuándo preocuparse",
+        summary: "Por qué toda hematuria, con o sin dolor, debe evaluarse.",
+        content: [
+          "La presencia de sangre en la orina, ya sea visible a simple vista o detectada solo en un examen de laboratorio, nunca debe ignorarse, incluso si desaparece espontáneamente después de un episodio aislado.",
+          "Las causas más frecuentes son benignas: infecciones urinarias, cálculos renales o crecimiento prostático. Sin embargo, la hematuria —especialmente la indolora— puede ser también el primer signo de un cáncer de vejiga o riñón en etapas iniciales.",
+          "La evaluación habitual incluye examen de orina, ecografía del tracto urinario y, en la mayoría de los casos de hematuria sin causa clara, una cistoscopía, que permite visualizar directamente el interior de la vejiga.",
+        ],
+      },
+      {
+        slug: "vejiga-hiperactiva-sintomas-y-manejo",
+        title: "Vejiga hiperactiva: síntomas y manejo",
+        summary: "Reconociendo los síntomas de la vejiga hiperactiva y sus alternativas de tratamiento.",
+        content: [
+          "La vejiga hiperactiva se caracteriza por urgencia urinaria repentina e intensa, frecuencia aumentada durante el día, y despertar varias veces en la noche para orinar, con o sin episodios de escape de orina asociado a la urgencia.",
+          "Es un síndrome muy frecuente y, a la vez, subtratado: muchas personas ajustan su vida (memorizando ubicación de baños, evitando salidas largas) en lugar de consultar.",
+          "El manejo es escalonado: medidas conductuales y kinesiterapia de piso pélvico como primera línea, medicamentos (antimuscarínicos o beta-3 agonistas) como segunda línea, y alternativas como la estimulación tibial posterior o la toxina botulínica intravesical en casos que no responden a lo anterior.",
+        ],
+      },
+      {
+        slug: "incontinencia-urinaria-masculina-causas-y-tratamiento",
+        title: "Incontinencia urinaria masculina: causas y tratamiento",
+        summary: "Principales causas de incontinencia urinaria en hombres y sus alternativas de manejo.",
+        content: [
+          "La incontinencia urinaria en hombres es menos frecuente que en mujeres, pero tiene causas específicas: la más común es la incontinencia tras cirugía de próstata (por ejemplo, prostatectomía radical), seguida por la vejiga hiperactiva y, con menor frecuencia, causas neurológicas.",
+          "El tipo de incontinencia (de esfuerzo, de urgencia o mixta) orienta el tratamiento: la incontinencia de esfuerzo tras cirugía prostática suele beneficiarse de kinesiterapia de piso pélvico, mientras que la de urgencia se maneja como vejiga hiperactiva.",
+          "En casos persistentes que no responden a medidas conservadoras, existen alternativas quirúrgicas como el cabestrillo uretral o el esfínter urinario artificial, con muy buenos resultados en pacientes bien seleccionados.",
+        ],
+      },
+      {
+        slug: "disfuncion-erectil-y-enfermedad-cardiovascular-la-conexion",
+        title: "Disfunción eréctil y enfermedad cardiovascular: la conexión",
+        summary: "Por qué la disfunción eréctil puede ser una señal de alarma cardiovascular.",
+        content: [
+          "Las arterias del pene son de menor calibre que las arterias coronarias, por lo que el daño vascular generalizado (aterosclerosis) suele manifestarse primero como disfunción eréctil, antes de generar síntomas cardíacos evidentes.",
+          "Por esta razón, la disfunción eréctil de origen vascular en un hombre de mediana edad, especialmente si se asocia a factores de riesgo como hipertensión, diabetes o tabaquismo, debe motivar una evaluación cardiovascular, no solo urológica.",
+          "El tratamiento de la disfunción eréctil no reemplaza el manejo de los factores de riesgo cardiovascular: ambos deben abordarse en conjunto para proteger la salud general a largo plazo.",
+        ],
+      },
+      {
+        slug: "eyaculacion-precoz-causas-y-manejo",
+        title: "Eyaculación precoz: causas y manejo",
+        summary: "Qué es la eyaculación precoz y qué opciones de tratamiento existen.",
+        content: [
+          "La eyaculación precoz es la dificultad para controlar el momento de la eyaculación, generando una latencia muy corta que afecta la satisfacción sexual propia y de la pareja. Es una de las disfunciones sexuales masculinas más frecuentes y subreportadas.",
+          "Puede ser de origen primario (presente desde el inicio de la vida sexual) o secundario (de aparición posterior, a veces asociado a ansiedad, disfunción eréctil concomitante o factores de pareja).",
+          "Existen alternativas de tratamiento efectivas, que incluyen técnicas conductuales, terapia psicológica o sexológica, y en algunos casos tratamiento farmacológico específico, por lo que no debe asumirse como algo sin solución.",
+        ],
+      },
+      {
+        slug: "vasectomia-preguntas-frecuentes",
+        title: "Vasectomía: preguntas frecuentes",
+        summary: "Respuestas a las dudas más comunes sobre la vasectomía.",
+        content: [
+          "La vasectomía es un método anticonceptivo definitivo para el hombre, que consiste en seccionar y obstruir los conductos deferentes para impedir el paso de espermatozoides al semen. Es un procedimiento ambulatorio, breve, realizado con anestesia local.",
+          "No afecta la producción de testosterona, el deseo sexual, la capacidad de erección ni la sensación del orgasmo, ya que estos dependen de mecanismos hormonales y nerviosos independientes de los conductos deferentes.",
+          "Es importante saber que no es efectiva de inmediato: se requiere un período (y habitualmente un espermiograma de control) para confirmar la ausencia de espermatozoides antes de suspender otros métodos anticonceptivos. Aunque en teoría es reversible mediante cirugía de reconexión, debe considerarse un método definitivo al momento de decidirlo.",
+        ],
+      },
+      {
+        slug: "prostata-y-vida-sexual-mitos-comunes",
+        title: "Próstata y vida sexual: mitos comunes",
+        summary: "Aclarando ideas erróneas frecuentes sobre la próstata y la función sexual.",
+        content: [
+          "Un mito frecuente es que tratar la próstata aumentada siempre afecta negativamente la vida sexual. En realidad, el impacto depende del tipo de tratamiento: alternativas como Rezum preservan en gran medida la función eyaculatoria, mientras que otras técnicas tienen mayor probabilidad de eyaculación retrógrada.",
+          "Otro mito es que la actividad sexual frecuente, o por el contrario la abstinencia prolongada, modifican el riesgo de cáncer de próstata; la evidencia disponible no respalda ninguna de estas afirmaciones de forma concluyente.",
+          "También es común confundir la disfunción eréctil con un problema exclusivamente prostático; en la mayoría de los casos su origen es vascular, hormonal o psicológico, y debe evaluarse de forma independiente del estado de la próstata.",
+        ],
+      },
+      {
+        slug: "cuidado-de-la-sonda-urinaria-en-casa",
+        title: "Cuidado de la sonda urinaria en casa",
+        summary: "Recomendaciones prácticas para el cuidado de la sonda urinaria tras una cirugía o procedimiento.",
+        content: [
+          "Tras ciertas cirugías urológicas (como HoLEP o uretroplastía) es habitual volver a casa con una sonda urinaria temporal. Mantenerla limpia, bien fijada a la pierna para evitar tirones, y la bolsa colectora siempre por debajo del nivel de la vejiga son medidas básicas de cuidado.",
+          "Es normal observar algo de sangre o sedimento en la orina los primeros días; lo que no es normal es la ausencia completa de drenaje de orina por la sonda, lo cual debe motivar consulta inmediata por riesgo de obstrucción.",
+          "Otros signos de alarma incluyen fiebre, dolor intenso, o salida de orina por fuera de la sonda en gran cantidad, que deben evaluarse a la brevedad en lugar de esperar al control programado.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getLibraryCategoryBySlug(slug: string) {

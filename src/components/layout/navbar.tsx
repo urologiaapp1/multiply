@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, ChevronDown, Phone, CalendarDays } from "lucide-react";
+import { Menu, X, ChevronDown, MessageCircle, CalendarDays } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 import { specialties } from "@/lib/specialties";
 import { Button } from "@/components/ui/button";
@@ -116,10 +116,12 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href={siteConfig.phoneHref}
+            href={siteConfig.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue"
           >
-            <Phone className="h-4 w-4" />
+            <MessageCircle className="h-4 w-4" />
             {siteConfig.phone}
           </a>
           <Button asChild size="default">

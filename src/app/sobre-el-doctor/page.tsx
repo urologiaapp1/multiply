@@ -16,12 +16,12 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Médico Cirujano",
-    description: "Universidad de la Frontera, Temuco.",
+    description: "Facultad de Medicina, Universidad del Desarrollo.",
   },
   {
     icon: Award,
     title: "Especialidad en Urología",
-    description: "Formación de especialidad acreditada en Chile.",
+    description: "Pontificia Universidad Católica de Chile.",
   },
   {
     icon: BookOpen,
@@ -29,21 +29,31 @@ const credentials = [
     description: "Formación avanzada de subespecialidad en andrología y reconstrucción genital y uretral compleja.",
   },
   {
+    icon: Award,
+    title: "Curso de Laparoscopía Avanzada en Tumores de Riñón y Próstata",
+    description: "Formación específica en cirugía laparoscópica oncológica renal y prostática.",
+  },
+  {
+    icon: Users,
+    title: "Docente de Urología",
+    description: "Universidad Mayor, sede Temuco. Ex Jefe de Internado y Coordinador Docente del Campus Clínico.",
+  },
+  {
     icon: Users,
     title: "Sociedades científicas",
-    description: "Miembro de la Sociedad Chilena de Urología (SOCHIU).",
+    description: "Miembro de la Sociedad Chilena de Urología (SOCHIU) y de la Sociedad Internacional de Urología (SIU).",
   },
 ];
 
 const timeline = [
   {
-    title: "Formación médica",
-    description: "Médico Cirujano con formación de excelencia académica en el sur de Chile.",
+    title: "Médico Cirujano",
+    description: "Facultad de Medicina, Universidad del Desarrollo.",
   },
   {
-    title: "Especialización en Urología",
+    title: "Especialidad en Urología",
     description:
-      "Formación integral en patología urológica general, con énfasis en cirugía genital y andrología.",
+      "Pontificia Universidad Católica de Chile, con formación integral en patología urológica general y subespecialidades quirúrgicas.",
   },
   {
     title: "Máster en Andrología y Cirugía Reconstructiva del Área Genital Masculina",
@@ -51,9 +61,19 @@ const timeline = [
       "Formación avanzada en andrología, uretroplastía y cirugía reconstructiva genital de alta complejidad.",
   },
   {
+    title: "Curso de Laparoscopía Avanzada en Tumores de Riñón y Próstata",
+    description:
+      "Perfeccionamiento en técnicas mínimamente invasivas para el manejo quirúrgico oncológico renal y prostático.",
+  },
+  {
+    title: "Docencia universitaria en Temuco",
+    description:
+      "Docente de Urología en la Universidad Mayor desde 2011, donde ejerció como Jefe de Internado de Urología y Coordinador Docente del Campus Clínico.",
+  },
+  {
     title: "Práctica clínica en Temuco",
     description:
-      "Atención especializada para pacientes de la Región de la Araucanía y zonas vecinas.",
+      "Atención especializada para pacientes de la Región de la Araucanía y zonas vecinas, con experiencia previa en el Hospital de Victoria, Clínica RedSalud Temuco y Hospital de Carabineros.",
   },
 ];
 
